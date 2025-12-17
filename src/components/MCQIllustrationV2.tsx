@@ -363,6 +363,11 @@ const MCQIllustrationV2: React.FC<MCQIllustrationV2Props> = ({ className = '', a
           .mcq-v2-animated .shape-v2-2 { animation: shapeFloatV2 7s ease-in-out infinite 0.5s; }
           .mcq-v2-animated .shape-v2-3 { animation: shapeFloatV2 5.5s ease-in-out infinite 1s; }
           
+          /* Friend base styles - always visible */
+          .friend-v2-1, .friend-v2-2, .friend-v2-3, .friend-v2-4, .friend-v2-5 {
+            opacity: 1;
+          }
+
           /* Friend animations */
           .mcq-v2-animated .friend-v2-1 { animation: friendPopV2 0.5s ease-out forwards, friendGlowV2 3s ease-in-out infinite 0.5s; }
           .mcq-v2-animated .friend-v2-2 { animation: friendPopV2 0.5s ease-out 0.15s forwards; }
