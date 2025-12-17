@@ -365,10 +365,10 @@ const MCQIllustrationV2: React.FC<MCQIllustrationV2Props> = ({ className = '', a
           
           /* Friend animations */
           .mcq-v2-animated .friend-v2-1 { animation: friendPopV2 0.5s ease-out forwards, friendGlowV2 3s ease-in-out infinite 0.5s; }
-          .mcq-v2-animated .friend-v2-2 { animation: friendPopV2 0.5s ease-out 0.15s forwards; opacity: 0; }
-          .mcq-v2-animated .friend-v2-3 { animation: friendPopV2 0.5s ease-out 0.3s forwards; opacity: 0; }
-          .mcq-v2-animated .friend-v2-4 { animation: friendPopV2 0.5s ease-out 0.45s forwards; opacity: 0; }
-          .mcq-v2-animated .friend-v2-5 { animation: friendPopV2 0.5s ease-out 0.6s forwards; opacity: 0; }
+          .mcq-v2-animated .friend-v2-2 { animation: friendPopV2 0.5s ease-out 0.15s forwards; }
+          .mcq-v2-animated .friend-v2-3 { animation: friendPopV2 0.5s ease-out 0.3s forwards; }
+          .mcq-v2-animated .friend-v2-4 { animation: friendPopV2 0.5s ease-out 0.45s forwards; }
+          .mcq-v2-animated .friend-v2-5 { animation: friendPopV2 0.5s ease-out 0.6s forwards; }
           
           @keyframes cardFloatV2 {
             0%, 100% { transform: translateY(0); }
